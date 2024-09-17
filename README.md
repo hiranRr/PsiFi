@@ -1,2 +1,2 @@
 # PsiFi
-rede social feita por Django,HTML e CSS
+rede social feita por Django,HTML,CSS e Javascript
