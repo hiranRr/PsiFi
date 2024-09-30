@@ -1,0 +1,40 @@
+
+
+.container-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#background-login{
+    margin-top: 100px;
+    background-color: #372B45;
+    height: 562px;
+    width: 453px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.btn{
+    width: 405px;
+    height: 49px;
+    margin-top: 41px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: floralwhite;
+    
+}
+::placeholder{
+    color: aliceblue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
