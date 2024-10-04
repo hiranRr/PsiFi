@@ -114,17 +114,29 @@ header{
 
 }
 
+input:focus-visible{
+  outline: 2px solid transparent;
+  border-radius: 3px;
+  font-family: istok_Web_bold;
+  font-size: 1.2em;
+}
+
+select:focus-visible {
+  border-radius: 3px;
+  outline: none;
+}
 
 
 .btn{
-    width: 350px;
-    height: 45px;
-    margin-top: 30px;
-    border-radius: 5px;
-    background-color: transparent;
-    border-style: solid;
-    border-color: rgba(240, 248, 255, 0.678);
-    
+  width: 350px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgba(240, 248, 255, 0.678);
+  color: #ffffff;
+
 }
 
 .btn2{
@@ -178,4 +190,20 @@ header{
 
 ::content{
   color: aliceblue;
+}
+
+#conexao{
+  text-decoration: none;
+  color: #c2d4e6;
+}
+
+#teurabo{
+  position: absolute;
+  width: 1500px;
+  height: 980px;
+  left: -20px;
+  top: 50px;
+  z-index: -1;
+  border: none;
+  background: linear-gradient(90deg, rgba(56, 40, 75, 0.7) 0%, #170C25 94%), url(../images/x7.webp);
 }
