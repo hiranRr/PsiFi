@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'istok_Web_regular'; /* Name your font family */
-    src: url('../fonts/Istok_Web/IstokWeb-Regular.ttf'); /* Locate the .ttf file within your directory*/
+    src: url('../assets/fonts/Istok_Web/IstokWeb-Regular.ttf'); /* Locate the .ttf file within your directory*/
   }
 
 @font-face {
     font-family: 'istok_Web_italic'; /* Name your font family */
-    src: url('../fonts/Istok_Web/IstokWeb-Italic.ttf'); /* Locate the .ttf file within your directory*/
+    src: url('../assets/fonts/Istok_Web/IstokWeb-Italic.ttf'); /* Locate the .ttf file within your directory*/
   }
 
 @font-face {
     font-family: 'istok_Web_bold_italic'; /* Name your font family */
-    src: url('../fonts/Istok_Web/IstokWeb-BoldItalic.ttf'); /* Locate the .ttf file within your directory*/
+    src: url('../assets/fonts/Istok_Web/IstokWeb-BoldItalic.ttf'); /* Locate the .ttf file within your directory*/
   }
 
 @font-face {
     font-family: 'istok_Web_bold'; /* Name your font family */
-    src: url('../fonts/Istok_Web/IstokWeb-Bold.ttf'); /* Locate the .ttf file within your directory*/
+    src: url('../assets/fonts/Istok_Web/IstokWeb-Bold.ttf'); /* Locate the .ttf file within your directory*/
   }
 
 
