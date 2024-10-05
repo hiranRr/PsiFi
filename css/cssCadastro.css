@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'istok_Web_regular'; /* Name your font family */
+    src: url('../assets/fonts/Istok_Web/IstokWeb-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+@font-face {
+    font-family: 'istok_Web_italic'; /* Name your font family */
+    src: url('../assets/fonts/Istok_Web/IstokWeb-Italic.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+@font-face {
+    font-family: 'istok_Web_bold_italic'; /* Name your font family */
+    src: url('../assets/fonts/Istok_Web/IstokWeb-BoldItalic.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+@font-face {
+    font-family: 'istok_Web_bold'; /* Name your font family */
+    src: url('../assets/fonts/Istok_Web/IstokWeb-Bold.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+body{
+  background-color: #170C25;
+}
+
+header{
+  display: flex;
+  background-color: #231A2F;
+  width: 100%;
+  height: 80px;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+
+nav{
+  display: flex;
+  list-style: none;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  font-size: 130%;
+  font-family: istok_Web_bold;
+}
+
+a{
+  color: aliceblue;
+}
+
+a:link{
+  text-decoration: none;
+  color: antiquewhite;
+
+}
+
+
+#EntrarId{
+  margin-left: 1300px;
+  margin-right: 20px;
+}
+.li1{
+  padding-left: 5px;
+
+}
+
+.li2{
+  border-color: antiquewhite;
+  border-style: solid;
+  border-radius: 22px;
+  border-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+main{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  width: 100%;
+}
+
+article{
+  width: 500px;
+  height: 700px;
+  background-color: #372B45;
+  border-radius: 20px;
+}
+
